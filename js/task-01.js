@@ -9,3 +9,6 @@ navEl.forEach(function (number, index) {
   const navElItem = document.querySelector("ul");
   console.log(navElItem);
 });
+
+const navElem = document.getElementsByClassName("item");
+console.log(navElem);
